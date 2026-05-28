@@ -1,6 +1,20 @@
 # Claude Streaming Starter
 
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Built with Anthropic](https://img.shields.io/badge/built%20with-Claude%20API-DA7756)](https://www.anthropic.com)
+[![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org)
+[![Stars](https://img.shields.io/github/stars/YorickLane/claude-streaming-starter?style=social)](https://github.com/YorickLane/claude-streaming-starter)
+
 A minimal, production-shaped FastAPI endpoint that streams Claude API responses to the browser via Server-Sent Events (SSE). ~180 LoC, no framework bloat.
+
+```bash
+# 30-second try (after adding your ANTHROPIC_API_KEY to .env):
+docker build -t claude-streaming-starter . && \
+  docker run -p 8000:8000 --env-file .env claude-streaming-starter
+# → open http://localhost:8000
+```
+
+Or [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YorickLane/claude-streaming-starter)
 
 ## Why this exists
 
