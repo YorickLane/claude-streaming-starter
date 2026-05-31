@@ -86,7 +86,7 @@ FastAPI endpoint  ──────►  Anthropic API (streaming)
                          output_tokens=234 cost_usd=0.00284
 ```
 
-## Why this template wins on Fiverr / Upwork
+## Why this template is production-ready
 
 Most freelancers ship Claude integrations that work *demos* but break in production. This template encodes the production patterns I've shipped over 18 months of daily Claude API work:
 
@@ -100,6 +100,6 @@ MIT. Use freely.
 
 ## Author
 
-Boxiang Z. — [Fiverr profile](https://www.fiverr.com/boxiangzhao245)
+Boxiang Z. — [github.com/YorickLane](https://github.com/YorickLane)
 
-Available for Claude API integration work via Fiverr. Async-only delivery.
+Available for Claude API integration work. Async-only delivery.
